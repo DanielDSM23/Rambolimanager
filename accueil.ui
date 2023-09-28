@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>accueil</class>
+ <widget class="QMainWindow" name="accueil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>789</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>789</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Rambolitalents Manager</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/icon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>3</pointsize>
+    </font>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>611</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/logoasso.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcomeMessage">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>791</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gill Sans MT</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>789</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menue_commerce">
+    <property name="title">
+     <string>Editer Site Internet</string>
+    </property>
+    <addaction name="actionGestion_Produits"/>
+    <addaction name="actionGestion_Atelier"/>
+    <addaction name="actionLocations"/>
+    <addaction name="actionVerifier_Billet"/>
+   </widget>
+   <widget class="QMenu" name="menumembre">
+    <property name="title">
+     <string>Membre</string>
+    </property>
+    <addaction name="actionGestion_Fichiers"/>
+    <addaction name="actionCreer_Compte"/>
+    <addaction name="actionMail"/>
+   </widget>
+   <widget class="QMenu" name="menuCompta">
+    <property name="title">
+     <string>Comptabilité</string>
+    </property>
+   </widget>
+   <addaction name="menue_commerce"/>
+   <addaction name="menumembre"/>
+   <addaction name="menuCompta"/>
+  </widget>
+  <action name="actionGestion_Produits">
+   <property name="text">
+    <string>Gestion Produits</string>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </action>
+  <action name="actionGestion_Spectacle">
+   <property name="text">
+    <string>Gestion Spectacles</string>
+   </property>
+  </action>
+  <action name="actionGestion_Atelier">
+   <property name="text">
+    <string>Gestion Atelier</string>
+   </property>
+  </action>
+  <action name="actionLocations">
+   <property name="text">
+    <string>Locations</string>
+   </property>
+  </action>
+  <action name="actionCreer_Compte">
+   <property name="text">
+    <string>Créer Compte</string>
+   </property>
+  </action>
+  <action name="actionGestion_Fichiers">
+   <property name="text">
+    <string>Gestion Fichiers</string>
+   </property>
+  </action>
+  <action name="actionMail">
+   <property name="text">
+    <string>Envoie Mail</string>
+   </property>
+  </action>
+  <action name="actionVerifier_Billet">
+   <property name="text">
+    <string>Vérifier Billet</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

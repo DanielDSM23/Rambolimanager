@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gestionProduits</class>
+ <widget class="QDialog" name="gestionProduits">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1191</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion Produit - Rambolitalents Manager</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/icon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/icon.png</iconset>
+  </property>
+  <widget class="QTreeWidget" name="locationList">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>1031</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="addButtonLocation">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>150</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string extracomment="ajouter une location">Ajouter</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/addIcon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/addIcon.png</iconset>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="editButtonLocation">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>200</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/editIcon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/editIcon.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteButtonLocation">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>250</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/deleteIcon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/deleteIcon.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>770</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLocation">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Locations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>40</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>440</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>410</y>
+     <width>1191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Billeterie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButtonBilleterie">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>530</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string extracomment="ajouter une location">Ajouter</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/addIcon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/addIcon.png</iconset>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="editButtonBilleterie">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>580</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/editIcon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/editIcon.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteButtonBilleterie">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>630</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/deleteIcon.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/deleteIcon.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="billeterieList">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>460</y>
+     <width>1031</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="seeButtonLocation">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>300</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Voir Web</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/web.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/web.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seeButtonBilleterie">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>680</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Voir Web</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/web.png</normaloff>../build-rambolitalentsManager-Desktop_Qt_5_9_6_MinGW_32bit-Debug/images/web.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
